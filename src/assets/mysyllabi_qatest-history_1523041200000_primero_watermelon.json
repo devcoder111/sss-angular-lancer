@@ -1,0 +1,35 @@
+{
+    "_id" : "mysyllabi_qatest-history_1523041200000_primero_watermelon",
+    "antes" : null,
+    "despues" : null,
+    "inventory" : [
+        {
+            "_id" : "qatest-HHHHHHHH-1523041200000",
+            "instance" : "watermelon",
+            "isFavorite" : false,
+            "pagination" : [
+                { "serial" : "primero" }
+            ],
+            "trueindex" : 0,
+            "currenttab" : "vacant",
+            "currentdate" : null,
+            "style" : {
+
+            }
+        },
+        {
+            "_id" : "qatest-GGGGGGGGHOOLA-1523041200000",
+            "instance" : "watermelon",
+            "isFavorite" : false,
+            "pagination" : [
+                { "serial" : "primero" }
+            ],
+            "trueindex" : 1,
+            "currenttab" : "stub",
+            "currentdate" : null,
+            "style" : {
+
+            }
+        }
+    ]
+}

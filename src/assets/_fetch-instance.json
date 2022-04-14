@@ -1,0 +1,1717 @@
+{
+    "actions" : [
+        {
+            "classString": "Reset",
+            "slice": "application",
+            "type": "RESET",
+            "payload": {}
+        },
+        {
+            "classString": "LoadFetched",
+            "slice": "nodes",
+            "type": "FETCHED_POPULATE",
+            "payload": {
+                "myaccount": {
+                    "tags":{
+
+                    },
+                    "_id":"myaccount",
+                    "auxtabs":[
+                    {
+                        "leaf":null,
+                        "refine":[
+
+                        ],
+                        "label":null,
+                        "template":"SSSAccountComponent",
+                        "name":"all"
+                    }
+                    ],
+                    "color":"red",
+                    "heightstate":"super",
+                    "name":"My Account",
+                    "background":"",
+                    "type":"myaccount",
+                    "instantiations":{
+                    "history":[
+                        "myaccount"
+                    ]
+                    },
+                    "leaves":{
+
+                    }
+                },
+                "mysyllabi_qatest-contribute1to1pers1fold1fold-application": {
+                    "_id" : "mysyllabi_qatest-contribute1to1pers1fold1fold-application",
+                    "tags" : {
+                        "language-arts" : 3,
+                        "science" : 7,
+                        "3rd" : 5,
+                        "4th" : 5,
+                        "5th" : 4
+                    },
+                    "auxtabs" : [
+                        {
+                            "label" : null,
+                            "template" : "SSSListComponent",
+                            "name" : "all",
+                            "leaf" : "ALLRESOURCES",
+                            "refine" : [
+
+                            ],
+                            "hovermenu" : false,
+                            "style" : {
+                                "display" : "grid",
+                                "height" : "100vh",
+                                "grid-template-columns" : "0.3fr 1fr 0.3fr",
+                                "grid-template-rows" : "0.3fr .4fr 0.3fr",
+                                "grid-gap" : "10px",
+                                "grid-template-areas" : "'child-0 child-0 child-0' 'child-1 child-2 child-3' 'child-4 child-4 child-4'"
+                            }
+                        }
+                    ],
+                    "color" : "mango",
+                    "heightstate" : null,
+                    "name" : "MySyllabi",
+                    "background" : "/images/inline/default_folder.png",
+                    "type" : "application",
+                    "instantiations" : {
+                        "infinity" : [
+                            "mysyllabi_qatest-contribute1to1pers1fold1fold-application"
+                        ]
+                    },
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "mysyllabi_qatest-contribute1to1pers1fold1fold-application_ALLRESOURCES",
+                            "count" : 3
+                        }
+                    }
+                },
+                "mysyllabi_qatest-history": {
+                    "_id" : "mysyllabi_qatest-history",
+                    "name" : "History",
+                    "type" : "calendar",
+                    "color" : "orange",
+                    "heightstate" : "super",
+                    "auxtabs" : [
+
+                    ],
+                    "tags" : {
+                        "language-arts" : 1,
+                        "6th" : 1
+                    },
+                    "instantiations" : {
+                        "qatest-history" : [
+                            "mysyllabi_qatest-history"
+                        ]
+                    },
+                    "leaves" : {
+
+                    },
+                    "background" : "http://seasidesyndication.com/images/teacher_distribution.png",
+                    "custom" : "",
+                    "subscribers" : [
+
+                    ],
+                    "url" : ""
+                },
+                "mysyllabi_qatest-sequential": {
+                    "_id" : "mysyllabi_qatest-sequential",
+                    "name" : "Sequential",
+                    "type" : "calendar",
+                    "color" : "tomato",
+                    "heightstate" : "super",
+                    "auxtabs" : [
+
+                    ],
+                    "tags" : {
+                        "language-arts" : 1,
+                        "6th" : 1
+                    },
+                    "instantiations" : {
+                        "qatest-history" : [
+                            "mysyllabi_qatest-sequential"
+                        ]
+                    },
+                    "leaves" : {
+
+                    },
+                    "background" : "http://seasidesyndication.com/images/greenjackets_logo.png",
+                    "custom" : "",
+                    "subscribers" : [
+
+                    ],
+                    "url" : ""
+                },
+                "qatest-bridge": {
+                    "_id" : "qatest-bridge",
+                    "tags" : {
+                        "language-arts" : 3,
+                        "science" : 7,
+                        "3rd" : 5,
+                        "4th" : 5,
+                        "5th" : 4
+                    },
+                    "auxtabs" : [
+                        {
+                            "label" : null,
+                            "template" : "SSSListComponent",
+                            "name" : "all",
+                            "leaf" : "ALLRESOURCES",
+                            "refine" : [
+
+                            ],
+                            "hovermenu" : false,
+                            "oope" : true
+                        }
+                    ],
+                    "color" : "plum",
+                    "heightstate" : null,
+                    "name" : "Bridge",
+                    "background" : "/images/inline/default_folder.png",
+                    "type" : "folder",
+                    "instantiations" : {
+                        "infinity" : [
+                            "qatest-bridge"
+                        ]
+                    },
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "qatest-bridge_ALLRESOURCES",
+                            "count" : 3
+                        }
+                    }
+                },
+                "qatest-bubble": {
+                    "_id" : "qatest-bubble",
+                    "tags" : {
+                        "language-arts" : 3,
+                        "science" : 7,
+                        "3rd" : 5,
+                        "4th" : 5,
+                        "5th" : 4
+                    },
+                    "auxtabs" : [
+                        {
+                            "label" : null,
+                            "template" : "SSSColumnComponent",
+                            "name" : "all",
+                            "leaf" : "ALLRESOURCES",
+                            "refine" : [
+
+                            ],
+                            "hovermenu" : false
+                        },
+                        {
+                            "label" : "Coin",
+                            "template" : "SSSCoinComponent",
+                            "name" : "coin",
+                            "leaf" : "",
+                            "refine" : [
+
+                            ],
+                            "visible" : false,
+                            "hovermenu" : false
+                        }
+                    ],
+                    "color" : "purple",
+                    "heightstate" : null,
+                    "name" : "Bubble",
+                    "background" : "https://www.gannett-cdn.com/presto/2018/08/23/PPHX/c6bf90a6-362d-4e61-ac2e-a21bbc4318ab-Lion2.jpg?crop=959,540,x0,y295&width=3200&height=1680&fit=bounds",
+                    "type" : "folder",
+                    "instantiations" : {
+                        "infinity" : [
+                            "qatest-bubble"
+                        ]
+                    },
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "qatest-bubble_ALLRESOURCES",
+                            "count" : 3
+                        }
+                    }
+                },
+                "qatest-crossroads": {
+                    "_id" : "qatest-crossroads",
+                    "tags" : {
+                        "language-arts" : 3,
+                        "science" : 7,
+                        "3rd" : 5,
+                        "4th" : 5,
+                        "5th" : 4
+                    },
+                    "auxtabs" : [
+                        {
+                            "label" : null,
+                            "template" : "SSSListComponent",
+                            "name" : "all",
+                            "leaf" : "ALLRESOURCES",
+                            "refine" : [
+
+                            ],
+                            "hovermenu" : false,
+                            "oope" : true
+                        }
+                    ],
+                    "color" : "gray",
+                    "heightstate" : null,
+                    "name" : "CrossRoads",
+                    "background" : "/images/inline/default_folder.png",
+                    "type" : "taxonomy",
+                    "instantiations" : {
+                        "infinity" : [
+                            "qatest-crossroads"
+                        ]
+                    },
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "qatest-crossroads_ALLRESOURCES",
+                            "count" : 3
+                        }
+                    }
+                },
+                "qatest-GGGGGGGGHOOLA-1519761600001": {
+                    "_id" : "qatest-GGGGGGGGHOOLA-1519761600001",
+                    "name" : "Tuesday Feb 27, 2018",
+                    "type" : "stub",
+                    "tags" : [
+
+                    ],
+                    "color" : "blue",
+                    "background" : "",
+                    "custom" : "",
+                    "subscribers" : [
+
+                    ]
+                },
+                "qatest-GGGGGGGGHOOLA-1522954800000": {
+                    "_id" : "qatest-GGGGGGGGHOOLA-1522954800000",
+                    "name" : "Thursday April 5, 2018",
+                    "type" : "stub",
+                    "tags" : [
+
+                    ],
+                    "color" : "blue",
+                    "background" : "",
+                    "custom" : "",
+                    "subscribers" : [
+
+                    ]
+                },
+                "qatest-GGGGGGGGHOOLA-1523041200000": {
+                    "_id" : "qatest-GGGGGGGGHOOLA-1523041200000",
+                    "name" : "Friday April 6, 2018",
+                    "type" : "stub",
+                    "tags" : [
+
+                    ],
+                    "color" : "blue",
+                    "background" : "",
+                    "custom" : "",
+                    "subscribers" : [
+
+                    ]
+                },
+                "qatest-GGGGGGGGHOOLA-1548621096056": {
+                    "_id" : "qatest-GGGGGGGGHOOLA-1548621096056",
+                    "name" : "Sunday January 28, 2019",
+                    "type" : "stub",
+                    "tags" : [
+
+                    ],
+                    "color" : "blue",
+                    "background" : "",
+                    "custom" : "",
+                    "subscribers" : [
+
+                    ]
+                },
+                "qatest-HHHHHHHH-1519761600001": {
+                    "_id" : "qatest-HHHHHHHH-1519761600001",
+                    "name" : "",
+                    "type" : "vacant",
+                    "tags" : {
+
+                    },
+                    "color" : "blue",
+                    "background" : "",
+                    "custom" : "",
+                    "subscribers" : [
+
+                    ]
+                },
+                "qatest-HHHHHHHH-1522954800000": {
+                    "_id" : "qatest-HHHHHHHH-1522954800000",
+                    "name" : "",
+                    "type" : "vacant",
+                    "tags" : {
+
+                    },
+                    "color" : "blue",
+                    "background" : "",
+                    "custom" : "",
+                    "subscribers" : [
+
+                    ]
+                },
+                "qatest-HHHHHHHH-1523041200000": {
+                    "_id" : "qatest-HHHHHHHH-1523041200000",
+                    "name" : "",
+                    "type" : "vacant",
+                    "tags" : {
+
+                    },
+                    "color" : "blue",
+                    "background" : "",
+                    "custom" : "",
+                    "subscribers" : [
+
+                    ]
+                },
+                "qatest-letter-a": {
+                    "_id" : "qatest-letter-a",
+                    "name" : "Letter A",
+                    "type" : "folder",
+                    "color" : "purple",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 3,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "letter-a_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "taxonomy" : [
+
+                        ],
+                        "qatest-history" : [
+                            "test-letter-a"
+                        ],
+                        "bing-bong" : [
+
+                        ]
+                    },
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_a.gif"
+                },
+                "qatest-letter-c": {
+                    "_id" : "qatest-letter-c",
+                    "name" : "Letter C",
+                    "type" : "folder",
+                    "color" : "gold",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 3,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "letter-c_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "BEATLEJUICE_qatest-bubble" : [
+                            "qatest-letter-p"
+                        ],
+                        "qatest-bubble" : [
+                            "qatest-letter-c"
+                        ],
+                        "qatest-trickle" : [
+                            "qatest-letter-a"
+                        ]
+                    },
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_c.gif"
+                },
+                "qatest-letter-d": {
+                    "_id" : "qatest-letter-d",
+                    "name" : "Letter D",
+                    "type" : "folder",
+                    "color" : "cyan",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 3,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "letter-d_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "BEATLEJUICE_qatest-bubble" : [
+                            "qatest-letter-q"
+                        ],
+                        "qatest-bubble" : [
+                            "qatest-letter-d",
+                            "qatest-letter-e"
+                        ],
+                        "qatest-trickle" : [
+                            "qatest-letter-m",
+                            "qatest-letter-p"
+                        ]
+                    },
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_d.gif"
+                },
+                "qatest-letter-e": {
+                    "_id" : "qatest-letter-e",
+                    "name" : "Letter E",
+                    "type" : "folder",
+                    "color" : "lime",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 3,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "letter-e_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "BEATLES_qatest-history" : [
+                            "qatest-letter-m"
+                        ],
+                        "qatest-sequential" : [
+                            "qatest-letter-e"
+                        ],
+                        "qatest-history" : [
+                            "qatest-letter-w"
+                        ]
+                    },
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_e.gif"
+                },
+                "qatest-letter-f": {
+                    "_id" : "qatest-letter-f",
+                    "name" : "Letter F",
+                    "type" : "folder",
+                    "color" : "olive",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 3,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "letter-f_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "BEATLES_qatest-history" : [
+                            "qatest-letter-n"
+                        ],
+                        "taxonomy" : [
+
+                        ],
+                        "qatest-sequential" : [
+                            "qatest-letter-f",
+                            "qatest-letter-n"
+                        ],
+                        "qatest-history" : [
+                            "qatest-letter-l",
+                            "qatest-letter-k"
+                        ],
+                        "bing-bong" : [
+
+                        ]
+                    },
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_f.gif"
+                },
+                "qatest-letter-k": {
+                    "_id" : "qatest-letter-k",
+                    "name" : "Letter K",
+                    "type" : "folder",
+                    "color" : "green",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 4,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "qatest-letter-k_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "taxonomy" : [
+
+                        ],
+                        "sister-history" : [
+                            "qatest-letter-k",
+                            "qatest-letter-p"
+                        ],
+                        "qatest-history" : [
+                            "qatest-letter-k",
+                            "qatest-letter-p"
+                        ]
+                    },
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_k.gif"
+                },
+                "qatest-letter-l": {
+                    "_id" : "qatest-letter-l",
+                    "name" : "Letter L",
+                    "type" : "folder",
+                    "color" : "green",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 4,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "qatest-letter-l_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "qatest-language-arts" : [
+                            "qatest-letter-l"
+                        ]
+                    },
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_l.gif"
+                },
+                "qatest-letter-m": {
+                    "_id" : "qatest-letter-m",
+                    "name" : "Letter M",
+                    "type" : "folder",
+                    "color" : "#FF8040",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 3,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "letter-m_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "taxonomy" : [
+
+                        ],
+                        "qatest-history" : [
+                            "qatest-letter-m"
+                        ],
+                        "bing-bong" : [
+
+                        ]
+                    },
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_m.gif"
+                },
+                "qatest-letter-n": {
+                    "_id" : "qatest-letter-n",
+                    "name" : "Letter N",
+                    "type" : "folder",
+                    "color" : "red",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 3,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "letter-n_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "taxonomy" : [
+
+                        ],
+                        "qatest-history" : [
+                            "qatest-letter-n"
+                        ],
+                        "bing-bong" : [
+
+                        ]
+                    },
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_n.gif"
+                },
+                "qatest-letter-p": {
+                    "_id" : "qatest-letter-p",
+                    "name" : "Letter P",
+                    "type" : "folder",
+                    "color" : "cyan",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 4,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "qatest-letter-p_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "qatest-history" : [
+                            "qatest-letter-p"
+                        ]
+                    },
+                    "background" : "http://seasidesyndication.com/images/mama_logo.png"
+                },
+                "qatest-letter-q": {
+                    "_id" : "qatest-letter-q",
+                    "name" : "Letter Q",
+                    "type" : "folder",
+                    "color" : "green",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 3,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "letter-q_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "taxonomy" : [
+
+                        ],
+                        "qatest-history" : [
+                            "qatest-letter-q"
+                        ],
+                        "bing-bong" : [
+
+                        ]
+                    },
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_q.gif"
+                },
+                "qatest-letter-w": {
+                    "_id" : "qatest-letter-w",
+                    "name" : "Letter W",
+                    "type" : "folder",
+                    "color" : "pink",
+                    "heightstate" : "super",
+                    "tags" : {
+                        "language-arts" : 5,
+                        "3rd" : 4,
+                        "4th" : 3,
+                        "5th" : 3,
+                        "6th" : 1
+                    },
+                    "auxtabs" : [
+
+                    ],
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "letter-w_ALLRESOURCES",
+                            "count" : 10
+                        }
+                    },
+                    "instantiations" : {
+                        "taxonomy" : [
+
+                        ],
+                        "qatest-history" : [
+                            "qatest-letter-w"
+                        ],
+                        "bing-bong" : [
+
+                        ]
+                    },
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_w.gif"
+                },
+                "qatest-stubfarm": {
+                    "_id" : "qatest-stubfarm",
+                    "tags" : {
+                        "language-arts" : 3,
+                        "science" : 7,
+                        "3rd" : 5,
+                        "4th" : 5,
+                        "5th" : 4
+                    },
+                    "auxtabs" : [
+                        {
+                            "label" : null,
+                            "template" : "SSSListComponent",
+                            "name" : "all",
+                            "leaf" : "ALLRESOURCES",
+                            "refine" : [
+
+                            ],
+                            "hovermenu" : false,
+                            "style" : {
+                                "display" : "grid",
+                                "height" : "100vh",
+                                "grid-template-columns" : "0.3fr 1fr 0.3fr",
+                                "grid-template-rows" : "0.3fr .4fr 0.3fr",
+                                "grid-gap" : "10px",
+                                "grid-template-areas" : "'child-0 child-0 child-0' 'child-1 child-2 child-3' 'child-4 child-4 child-4'"
+                            }
+                        }
+                    ],
+                    "color" : "red",
+                    "heightstate" : null,
+                    "name" : "StubFarm",
+                    "background" : "/images/inline/default_folder.png",
+                    "type" : "folder",
+                    "instantiations" : {
+                        "infinity" : [
+                            "qatest-stubfarm"
+                        ]
+                    },
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "qatest-stubfarm_ALLRESOURCES",
+                            "count" : 3
+                        }
+                    }
+                },
+                "qatest-trickle": {
+                    "_id" : "qatest-trickle",
+                    "tags" : {
+                        "language-arts" : 3,
+                        "science" : 7,
+                        "3rd" : 5,
+                        "4th" : 5,
+                        "5th" : 4
+                    },
+                    "auxtabs" : [
+                        {
+                            "label" : null,
+                            "template" : "SSSListComponent",
+                            "name" : "all",
+                            "leaf" : "ALLRESOURCES",
+                            "refine" : [
+
+                            ],
+                            "hovermenu" : false
+                        }
+                    ],
+                    "color" : "orange",
+                    "heightstate" : null,
+                    "name" : "Trickle",
+                    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_f.gif",
+                    "type" : "folder",
+                    "instantiations" : {
+                        "infinity" : [
+                            "qatest-trickle"
+                        ]
+                    },
+                    "leaves" : {
+                        "ALLRESOURCES" : {
+                            "_id" : "qatest-trickle_ALLRESOURCES",
+                            "count" : 3
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "classString": "LoadFetched",
+            "slice": "tabs",
+            "type": "FETCHED_POPULATE",
+            "payload": {
+                "qatest-stubfarm_ALLRESOURCES_primero_master": {
+                    "_id" : "qatest-stubfarm_ALLRESOURCES_primero_master",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "qatest-bubble",
+                            "_id" : "qatest-bubble",
+                            "instance" : "riski",
+                            "isFavorite" : false,
+                            "pagination" : [ { "serial" : "primero" } ],
+                            "currenttab" : "basic",
+                            "currentdate" : null,
+                            "style" : {
+                                "width" : "200px",
+                                "height" : "23px"
+                            }
+                        },
+                        {
+                            "name" : "qatest-trickle",
+                            "_id" : "qatest-trickle",
+                            "instance" : "laddle",
+                            "isFavorite" : false,
+                            "pagination" : [ { "serial" : "primero" } ],
+                            "currenttab" : "basic",
+                            "currentdate" : null,
+                            "style" : {
+                                "width" : "200px",
+                                "height" : "23px"
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-contribute1to1pers1fold1fold-application_ALLRESOURCES_primero_master" : {
+                    "_id" : "mysyllabi_qatest-contribute1to1pers1fold1fold-application_ALLRESOURCES_primero_master",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "qatest-stubfarm",
+                            "_id" : "qatest-stubfarm",
+                            "instance" : "master",
+                            "currentdate" : null,
+                            "currenttab" : "all",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                {
+                                    "serial" : "primero"
+                                }
+                            ],
+                            "defaultchildrenstate" : "headline"
+                        },
+                        {
+                            "name" : "qatest-crossroads",
+                            "_id" : "qatest-crossroads",
+                            "instance" : "master",
+                            "currentdate" : null,
+                            "currenttab" : "all",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                {
+                                    "serial" : "primero"
+                                }
+                            ],
+                            "defaultchildrenstate" : "card"
+                        },
+                        {
+                            "name" : "mysyllabi_qatest-history",
+                            "_id" : "mysyllabi_qatest-history",
+                            "instance" : "master",
+                            "currentdate" : null,
+                            "currenttab" : "timeline",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "defaultchildrenstate" : "card",
+                            "urlnodelistener" : true
+                        },
+                        {
+                            "name" : "qatest-bubble",
+                            "_id" : "qatest-bubble",
+                            "instance" : "banana",
+                            "currentdate" : null,
+                            "currenttab" : "all",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                {
+                                    "serial" : "primero"
+                                }
+                            ],
+                            "defaultchildrenstate" : "basic"
+                        },
+                        {
+                            "name" : "qatest-trickle",
+                            "_id" : "qatest-trickle",
+                            "instance" : "apricot",
+                            "currentdate" : null,
+                            "currenttab" : "all",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                {
+                                    "serial" : "primero"
+                                }
+                            ],
+                            "defaultchildrenstate" : "headline",
+                            "urlnodelistener" : true
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-history_1519761600000_primero_master" : {
+                    "_id" : "mysyllabi_qatest-history_1519761600000_primero_master",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "qatest-HHHHHHHH-1519761600001",
+                            "_id" : "qatest-HHHHHHHH-1519761600001",
+                            "instance" : "1519761600000",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 0,
+                            "currenttab" : "vacant",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "qatest-GGGGGGGGHOOLA-1519761600001",
+                            "_id" : "qatest-GGGGGGGGHOOLA-1519761600001",
+                            "instance" : "1519761600000",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 1,
+                            "currenttab" : "stub",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-history_1519761600000_primero_watermelon" : {
+                    "_id" : "mysyllabi_qatest-history_1519761600000_primero_watermelon",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "qatest-HHHHHHHH-1519761600001",
+                            "_id" : "qatest-HHHHHHHH-1519761600001",
+                            "instance" : "watermelon",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 0,
+                            "currenttab" : "vacant",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "qatest-GGGGGGGGHOOLA-1519761600001",
+                            "_id" : "qatest-GGGGGGGGHOOLA-1519761600001",
+                            "instance" : "watermelon",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 1,
+                            "currenttab" : "stub",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-history_1522954800000_primero_master" : {
+                    "_id" : "mysyllabi_qatest-history_1522954800000_primero_master",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "qatest-HHHHHHHH-1522954800000",
+                            "_id" : "qatest-HHHHHHHH-1522954800000",
+                            "instance" : "1522954800000",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 0,
+                            "currenttab" : "vacant",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "qatest-GGGGGGGGHOOLA-1522954800000",
+                            "_id" : "qatest-GGGGGGGGHOOLA-1522954800000",
+                            "instance" : "1522954800000",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 1,
+                            "currenttab" : "stub",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-history_1522954800000_primero_watermelon" : {
+                    "_id" : "mysyllabi_qatest-history_1522954800000_primero_watermelon",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "qatest-HHHHHHHH-1522954800000",
+                            "_id" : "qatest-HHHHHHHH-1522954800000",
+                            "instance" : "watermelon",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 0,
+                            "currenttab" : "vacant",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "qatest-GGGGGGGGHOOLA-1522954800000",
+                            "_id" : "qatest-GGGGGGGGHOOLA-1522954800000",
+                            "instance" : "watermelon",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 1,
+                            "currenttab" : "stub",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-history_1523041200000_primero_master" : {
+                    "_id" : "mysyllabi_qatest-history_1523041200000_primero_master",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "qatest-HHHHHHHH-1523041200000",
+                            "_id" : "qatest-HHHHHHHH-1523041200000",
+                            "instance" : "1523041200000",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 0,
+                            "currenttab" : "vacant",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "qatest-GGGGGGGGHOOLA-1523041200000",
+                            "_id" : "qatest-GGGGGGGGHOOLA-1523041200000",
+                            "instance" : "1523041200000",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 1,
+                            "currenttab" : "stub",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-history_1523041200000_primero_watermelon": {
+                    "_id" : "mysyllabi_qatest-history_1523041200000_primero_watermelon",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "qatest-HHHHHHHH-1523041200000",
+                            "_id" : "qatest-HHHHHHHH-1523041200000",
+                            "instance" : "watermelon",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 0,
+                            "currenttab" : "vacant",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "qatest-GGGGGGGGHOOLA-1523041200000",
+                            "_id" : "qatest-GGGGGGGGHOOLA-1523041200000",
+                            "instance" : "watermelon",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 1,
+                            "currenttab" : "stub",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-history_TIMELINE_primero_master": {
+                    "_id" : "mysyllabi_qatest-history_TIMELINE_primero_master",
+                    "heightstate" : "dooper",
+                    "percentageheight" : 100,
+                    "inventory" : [
+                        {
+                            "name" : "mysyllabi_qatest-history",
+                            "_id" : "mysyllabi_qatest-history",
+                            "instance" : "master",
+                            "isFavorite" : false,
+                            "currenttab" : "day",
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "currentdate" : 1523041200000,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "mysyllabi_qatest-history",
+                            "_id" : "mysyllabi_qatest-history",
+                            "instance" : "master",
+                            "isFavorite" : false,
+                            "currenttab" : "day",
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "currentdate" : 1522954800000,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "mysyllabi_qatest-history",
+                            "_id" : "mysyllabi_qatest-history",
+                            "instance" : "master",
+                            "isFavorite" : false,
+                            "currenttab" : "day",
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "currentdate" : 1519761600000,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-history_TIMELINE_primero_watermelon": {
+                    "_id" : "mysyllabi_qatest-history_TIMELINE_primero_watermelon",
+                    "heightstate" : "dooper",
+                    "percentageheight" : 100,
+                    "inventory" : [
+                        {
+                            "name" : "mysyllabi_qatest-history",
+                            "_id" : "mysyllabi_qatest-history",
+                            "instance" : "watermelon",
+                            "isFavorite" : false,
+                            "currenttab" : "day",
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "currentdate" : 1523041200000,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "mysyllabi_qatest-history",
+                            "_id" : "mysyllabi_qatest-history",
+                            "instance" : "watermelon",
+                            "isFavorite" : false,
+                            "currenttab" : "day",
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "currentdate" : 1522954800000,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "mysyllabi_qatest-history",
+                            "_id" : "mysyllabi_qatest-history",
+                            "instance" : "watermelon",
+                            "isFavorite" : false,
+                            "currenttab" : "day",
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "currentdate" : 1519761600000,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-sequential_1548621096056_primero_blueberry": {
+                    "_id" : "mysyllabi_qatest-sequential_1548621096056_primero_blueberry",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "qatest-HHHHHHHH-1523041200000",
+                            "_id" : "qatest-HHHHHHHH-1523041200000",
+                            "instance" : "blueberry",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 0,
+                            "currenttab" : "vacant",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "qatest-GGGGGGGGHOOLA-1548621096056",
+                            "_id" : "qatest-GGGGGGGGHOOLA-1548621096056",
+                            "instance" : "blueberry",
+                            "isFavorite" : false,
+                            "pagination" : [
+                            { "serial" : "primero" }
+                            ],
+                            "trueindex" : 1,
+                            "currenttab" : "stub",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-sequential_1523041200000_primero_blueberry": {
+                    "_id" : "mysyllabi_qatest-sequential_1523041200000_primero_blueberry",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "qatest-HHHHHHHH-1523041200000",
+                            "_id" : "qatest-HHHHHHHH-1523041200000",
+                            "instance" : "blueberry",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 0,
+                            "currenttab" : "vacant",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "qatest-GGGGGGGGHOOLA-1548621096056",
+                            "_id" : "qatest-GGGGGGGGHOOLA-1548621096056",
+                            "instance" : "blueberry",
+                            "isFavorite" : false,
+                            "pagination" : [
+                            { "serial" : "primero" }
+                            ],
+                            "trueindex" : 1,
+                            "currenttab" : "stub",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-sequential_1548621096056_primero_master": {
+                    "_id" : "mysyllabi_qatest-sequential_1548621096056_primero_master",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "qatest-HHHHHHHH-1523041200000",
+                            "_id" : "qatest-HHHHHHHH-1523041200000",
+                            "instance" : "1523041200000",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "trueindex" : 0,
+                            "currenttab" : "vacant",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        },
+                        {
+                            "name" : "qatest-GGGGGGGGHOOLA-1548621096056",
+                            "_id" : "qatest-GGGGGGGGHOOLA-1548621096056",
+                            "instance" : "1548621096056",
+                            "isFavorite" : false,
+                            "pagination" : [
+                            { "serial" : "primero" }
+                            ],
+                            "trueindex" : 1,
+                            "currenttab" : "stub",
+                            "currentdate" : null,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-sequential_TIMELINE_primero_blueberry": {
+                    "_id" : "mysyllabi_qatest-sequential_TIMELINE_primero_blueberry",
+                    "heightstate" : "dooper",
+                    "percentageheight" : 100,
+                    "inventory" : [
+                        {
+                            "name" : "mysyllabi_qatest-sequential",
+                            "_id" : "mysyllabi_qatest-sequential",
+                            "instance" : "blueberry",
+                            "isFavorite" : false,
+                            "currenttab" : "day",
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "currentdate" : 1523041200000,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "mysyllabi_qatest-sequential_TIMELINE_primero_master": {
+                    "_id" : "mysyllabi_qatest-sequential_TIMELINE_primero_master",
+                    "heightstate" : "dooper",
+                    "percentageheight" : 100,
+                    "inventory" : [
+                        {
+                            "name" : "mysyllabi_qatest-sequential",
+                            "_id" : "mysyllabi_qatest-sequential",
+                            "instance" : "master",
+                            "isFavorite" : false,
+                            "currenttab" : "day",
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ],
+                            "currentdate" : 1548621096056,
+                            "style" : {
+
+                            }
+                        }
+                    ]
+                },
+                "qatest-bridge_ALLRESOURCES_primero_master": {
+                    "_id" : "qatest-bridge_ALLRESOURCES_primero_master",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "mysyllabi_qatest-history",
+                            "_id" : "mysyllabi_qatest-history",
+                            "instance" : "watermelon",
+                            "currentdate" : null,
+                            "currenttab" : "timeline",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                {
+                                    "serial" : "primero"
+                                }
+                            ],
+                            "defaultchildrenstate" : "card"
+                        },
+                        {
+                            "name" : "mysyllabi_qatest-sequential",
+                            "_id" : "mysyllabi_qatest-sequential",
+                            "instance" : "blueberry",
+                            "currentdate" : null,
+                            "currenttab" : "timeline",
+                            "isFavorite" : false,
+                            "pagination" : [
+                            {
+                                "serial" : "primero"
+                            }
+                            ],
+                            "defaultchildrenstate" : "card",
+                            "urlnodelistener" : true
+                        }
+                    ]
+                },
+                "qatest-bubble_ALLRESOURCES_primero_banana": {
+                    "_id" : "qatest-bubble_ALLRESOURCES_primero_banana",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+							"name" : "myaccount",
+							"_id" : "myaccount",
+							"instance" : "fridge",
+							"isFavorite" : false,
+							"currentdate" : null,
+							"currenttab" : "all",
+							"style" : {
+
+							},
+							"pagination" : [
+								{ "serial" : "primero" }
+							]
+                        },
+                        {
+                            "name" : "qatest-letter-w",
+                            "_id" : "qatest-letter-w",
+                            "instance" : "pickle",
+                            "isFavorite" : false,
+                            "currentdate" : null,
+                            "currenttab" : "basic",
+                            "style" : {
+
+                            },
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ]
+                        },
+                        {
+                            "name" : "qatest-letter-q",
+                            "_id" : "qatest-letter-q",
+                            "instance" : "wendle",
+                            "isFavorite" : false,
+                            "currentdate" : null,
+                            "currenttab" : "basic",
+                            "style" : {
+
+                            },
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ]
+                        }
+                    ]
+                },
+                "qatest-bubble_ALLRESOURCES_primero_master" : {
+                    "_id" : "qatest-bubble_ALLRESOURCES_primero_master",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+							"name" : "myaccount",
+							"_id" : "myaccount",
+                                "instance" : "poof",
+                                "isFavorite" : false,
+                                "currentdate" : null,
+                                "currenttab" : "all",
+                                "style" : {
+
+                                },
+                                "pagination" : [
+                                    { "serial" : "primero" }
+                                ]
+                        },
+                        {
+                            "name" : "qatest-letter-w",
+                            "_id" : "qatest-letter-w",
+                            "instance" : "fizzle",
+                            "isFavorite" : false,
+                            "currentdate" : null,
+                            "currenttab" : "basic",
+                            "style" : {
+
+                            },
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ]
+                        },
+                        {
+                            "name" : "qatest-letter-q",
+                            "_id" : "qatest-letter-q",
+                            "instance" : "dairy",
+                            "isFavorite" : false,
+                            "currentdate" : null,
+                            "currenttab" : "basic",
+                            "style" : {
+
+                            },
+                            "pagination" : [
+                                { "serial" : "primero" }
+                            ]
+                        }
+                    ]
+                },
+                "qatest-trickle_ALLRESOURCES_primero_apricot" : {
+                    "_id" : "qatest-trickle_ALLRESOURCES_primero_apricot",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+							"name" : "qatest-letter-w",
+							"_id" : "qatest-letter-w",
+                                "instance" : "deal",
+                                "isFavorite" : false,
+                                "currentdate" : null,
+                                "currenttab" : "basic",
+                                "style" : {
+
+                                },
+                                "pagination" : [
+                                    { "serial" : "primero" }
+                                ]
+                        }
+                    ]
+                },
+                "qatest-trickle_ALLRESOURCES_primero_master" : {
+                    "_id" : "qatest-trickle_ALLRESOURCES_primero_master",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+							"name" : "qatest-letter-w",
+							"_id" : "qatest-letter-w",
+                                "instance" : "real",
+                                "isFavorite" : false,
+                                "currentdate" : null,
+                                "currenttab" : "basic",
+                                "style" : {
+
+                                },
+                                "pagination" : [
+                                    { "serial" : "primero" }
+                                ]
+                        }
+                    ]
+                },
+                "qatest-crossroads_ALLRESOURCES_primero_master": {
+                    "_id" : "qatest-crossroads_ALLRESOURCES_primero_master",
+                    "antes" : null,
+                    "despues" : null,
+                    "inventory" : [
+                        {
+                            "name" : "mysyllabi_qatest-sequential",
+                            "_id" : "mysyllabi_qatest-sequential",
+                            "instance" : "master",
+                            "currentdate" : null,
+                            "currenttab" : "timeline",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                {
+                                    "serial" : "primero"
+                                }
+                            ],
+                            "defaultchildrenstate" : "card"
+                        },
+                        {
+                            "name" : "qatest-bubble",
+                            "_id" : "qatest-bubble",
+                            "instance" : "master",
+                            "currentdate" : null,
+                            "currenttab" : "all",
+                            "isFavorite" : false,
+                            "pagination" : [
+                                {
+                                    "serial" : "primero"
+                                }
+                            ],
+                            "defaultchildrenstate" : "basic",
+                            "urlnodelistener" : true
+                        },
+                        {
+                            "name" : "qatest-trickle",
+                            "_id" : "qatest-trickle",
+                            "instance" : "master",
+                            "currentdate" : null,
+                            "currenttab" : "all",
+                            "isFavorite" : false,
+                            "pagination" : [
+                            {
+                                "serial" : "primero"
+                            }
+                            ],
+                            "defaultchildrenstate" : "headline"
+                        },
+                        {
+                            "name" : "qatest-bridge",
+                            "_id" : "qatest-bridge",
+                            "instance" : "master",
+                            "currentdate" : null,
+                            "currenttab" : "all",
+                            "isFavorite" : false,
+                            "pagination" : [
+                            {
+                                "serial" : "primero"
+                            }
+                            ],
+                            "defaultchildrenstate" : "headline"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+          "classString": "LoadNewRootInstantiation",
+          "slice": "application",
+          "type": "LOAD_NEW_ROOT_INSTANTIATION",
+          "payload": {
+            "root_nodeid": "mysyllabi_qatest-contribute1to1pers1fold1fold-application"
+          }
+        }
+      ],
+    "debug" : null
+}

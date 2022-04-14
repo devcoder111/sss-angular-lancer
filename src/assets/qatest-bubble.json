@@ -1,0 +1,49 @@
+{
+    "_id" : "qatest-bubble",
+    "tags" : {
+        "language-arts" : 3,
+        "science" : 7,
+        "3rd" : 5,
+        "4th" : 5,
+        "5th" : 4
+    },
+    "auxtabs" : [
+        {
+            "label" : null,
+            "template" : "SSSColumnComponent",
+            "name" : "all",
+            "leaf" : "ALLRESOURCES",
+            "refine" : [
+
+            ],
+            "hovermenu" : false
+        },
+        {
+            "label" : "Coin",
+            "template" : "SSSCoinComponent",
+            "name" : "coin",
+            "leaf" : "",
+            "refine" : [
+
+            ],
+            "visible" : false,
+            "hovermenu" : false
+        }
+    ],
+    "color" : "purple",
+    "heightstate" : null,
+    "name" : "Bubble",
+    "background" : "https://www.gannett-cdn.com/presto/2018/08/23/PPHX/c6bf90a6-362d-4e61-ac2e-a21bbc4318ab-Lion2.jpg?crop=959,540,x0,y295&width=3200&height=1680&fit=bounds",
+    "type" : "folder",
+    "instantiations" : {
+        "infinity" : [
+            "qatest-bubble"
+        ]
+    },
+    "leaves" : {
+        "ALLRESOURCES" : {
+            "_id" : "qatest-bubble_ALLRESOURCES",
+            "count" : 3
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "_id" : "mysyllabi_qatest-sequential_1548621096056_primero_master",
+    "antes" : null,
+    "despues" : null,
+    "inventory" : [
+        {
+            "_id" : "qatest-HHHHHHHH-1523041200000",
+            "instance" : "1523041200000",
+            "isFavorite" : false,
+            "pagination" : [
+                { "serial" : "primero" }
+            ],
+            "trueindex" : 0,
+            "currenttab" : "vacant",
+            "currentdate" : null,
+            "style" : {
+
+            }
+        },
+        {
+            "_id" : "qatest-GGGGGGGGHOOLA-1548621096056",
+            "instance" : "1548621096056",
+            "isFavorite" : false,
+            "pagination" : [
+             { "serial" : "primero" }
+            ],
+            "trueindex" : 1,
+            "currenttab" : "stub",
+            "currentdate" : null,
+            "style" : {
+
+            }
+        }
+    ]
+}

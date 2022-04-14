@@ -1,0 +1,83 @@
+{
+	"actions": [
+		{
+			"classString": "LoadFetched",
+			"slice": "nodes",
+			"type": "FETCHED_POPULATE",
+			"payload": {
+				"qatest-letter-w": {
+					"url": null,
+					"custom": null,
+					"serial": "qatest-letter-w",
+					"author": null,
+					"tags": {
+						"language-arts": 5,
+						"3rd": 4,
+						"4th": 3,
+						"5th": 3,
+						"6th": 1
+					},
+					"leaves": {
+						"ALLRESOURCES": {
+							"_id": "letter-w_ALLRESOURCES",
+							"count": 10
+						}
+					},
+					"id": "851106ba-b1b2-4f90-9f11-fa5700109c71",
+					"timestamp": "2021-09-25T10:24:03Z",
+					"batch": null,
+					"name": "Letter W",
+					"heightstate": "super",
+					"auxtext": null,
+					"auxtabs": [],
+					"text": null,
+					"instantiations": {
+						"BEATLES_qatest-history": ["qatest-letter-m"],
+						"qatest-sequential": ["qatest-letter-e"],
+						"qatest-history": ["qatest-letter-w"]
+					},
+					"type": "folder",
+					"_id": "qatest-letter-w",
+					"subscribers": null,
+					"background": "http://miclasesabe.com/wp-content/uploads/2016/08/letter_e.gif",
+					"color": "cyan"
+				}
+			}
+		},
+		{
+			"classString": "LoadChanges",
+			"slice": "changes",
+			"type": "CHANGES_POPULATE",
+			"payload": {
+				"sister-history_TIMELINE_primero_master": {
+					"additions": [
+						{
+							"_id": "qatest-letter-w",
+							"id": "dde5b817-96f6-4c3f-a680-b1f37b03114d",
+							"name": "qatest-letter-w",
+							"currenttab": "headline",
+							"instance": "1614139209571-0-$-371840+1614139209571-0-$-371840",
+							"currentdate": null,
+							"urlnodelistener": null,
+							"isFavorite": false,
+							"pagination": [
+								{
+									"serial": "primero",
+									"ghost": "qatest-letter-w"
+								}
+							],
+							"defaultchildrenstate": "card",
+							"layoutbehavior": "row"
+						}
+					]
+				}
+			}
+		},
+		{
+			"classString": "SetApplicationNodeID",
+			"slice": "application",
+			"type": "SET_APPLICATION_NODEID",
+			"payload": "mysyllabi_application"
+		}
+	]
+}

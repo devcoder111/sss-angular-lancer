@@ -1,0 +1,83 @@
+{
+	"actions": [
+		{
+			"classString": "LoadFetched",
+			"slice": "nodes",
+			"type": "FETCHED_POPULATE",
+			"payload": {
+				"qatest-letter-h": {
+					"url": null,
+					"custom": null,
+					"serial": "qatest-letter-h",
+					"author": null,
+					"tags": {
+						"language-arts": 5,
+						"3rd": 4,
+						"4th": 3,
+						"5th": 3,
+						"6th": 1
+					},
+					"leaves": {
+						"ALLRESOURCES": {
+							"_id": "letter-h_ALLRESOURCES",
+							"count": 10
+						}
+					},
+					"id": "851106ba-b1b2-4f90-9f11-fa5700109c71",
+					"timestamp": "2021-09-25T10:24:03Z",
+					"batch": null,
+					"name": "Letter H",
+					"heightstate": "super",
+					"auxtext": null,
+					"auxtabs": [],
+					"text": null,
+					"instantiations": {
+						"BEATLES_qatest-history": ["qatest-letter-m"],
+						"qatest-sequential": ["qatest-letter-e"],
+						"qatest-history": ["qatest-letter-h"]
+					},
+					"type": "folder",
+					"_id": "qatest-letter-h",
+					"subscribers": null,
+					"background": "http://miclasesabe.com/wp-content/uploads/2016/08/letter_e.gif",
+					"color": "olive"
+				}
+			}
+		},
+		{
+			"classString": "LoadChanges",
+			"slice": "changes",
+			"type": "CHANGES_POPULATE",
+			"payload": {
+				"GUEST_sister-history_TIMELINE_primero_master": {
+					"additions": [
+						{
+							"_id": "qatest-letter-h",
+							"id": "9527fe8c-7f71-4523-a094-c6ba5b7fa48f",
+							"name": "qatest-letter-h",
+							"currenttab": "headline",
+							"instance": "1614139209571-0-$-371840+1614139209571-0-$-371840",
+							"currentdate": null,
+							"urlnodelistener": null,
+							"isFavorite": false,
+							"pagination": [
+								{
+									"serial": "primero",
+									"ghost": "qatest-letter-h"
+								}
+							],
+							"defaultchildrenstate": "card",
+							"layoutbehavior": "row"
+						}
+					]
+				}
+			}
+		},
+		{
+			"classString": "SetApplicationNodeID",
+			"slice": "application",
+			"type": "SET_APPLICATION_NODEID",
+			"payload": "mysyllabi_application"
+		}
+	]
+}

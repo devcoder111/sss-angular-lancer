@@ -1,0 +1,33 @@
+{
+    "_id" : "qatest-trickle_ALLRESOURCES_primero_apricot",
+    "antes" : null,
+    "despues" : null,
+    "inventory" : [
+        {
+            "_id" : "qatest-letter-f",
+            "instance" : "locust",
+            "isFavorite" : false,
+            "currentdate" : null,
+            "currenttab" : "basic",
+            "style" : {
+
+            },
+            "pagination" : [
+                { "serial" : "primero" }
+            ]
+        },
+        {
+            "_id" : "qatest-letter-n",
+            "instance" : "poochy",
+            "isFavorite" : false,
+            "currentdate" : null,
+            "currenttab" : "all",
+            "style" : {
+
+            },
+            "pagination" : [
+                { "serial" : "primero" }
+            ]
+        }
+    ]
+}

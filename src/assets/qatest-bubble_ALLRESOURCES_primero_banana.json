@@ -1,0 +1,46 @@
+{
+    "_id" : "qatest-bubble_ALLRESOURCES_primero_banana",
+    "antes" : null,
+    "despues" : null,
+    "inventory" : [
+        {
+                "_id" : "myaccount",
+                "instance" : "fridge",
+                "isFavorite" : false,
+                "currentdate" : null,
+                "currenttab" : "all",
+                "style" : {
+
+                },
+                "pagination" : [
+                    { "serial" : "primero" }
+                ]
+        },
+        {
+            "_id" : "qatest-letter-w",
+            "instance" : "pickle",
+            "isFavorite" : false,
+            "currentdate" : null,
+            "currenttab" : "basic",
+            "style" : {
+
+            },
+            "pagination" : [
+                { "serial" : "primero" }
+            ]
+        },
+        {
+            "_id" : "qatest-letter-q",
+            "instance" : "wendle",
+            "isFavorite" : false,
+            "currentdate" : null,
+            "currenttab" : "basic",
+            "style" : {
+
+            },
+            "pagination" : [
+                { "serial" : "primero" }
+            ]
+        }
+    ]
+}

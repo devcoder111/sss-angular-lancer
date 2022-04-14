@@ -1,0 +1,96 @@
+{
+	"actions": [
+		{
+			"classString": "LoadFetched",
+			"slice": "nodes",
+			"type": "FETCHED_POPULATE",
+			"payload": {
+				"qatest-letter-k": {
+					"tags": {
+						"language-arts": 5,
+						"3rd": 4,
+						"4th": 3,
+						"5th": 3,
+						"6th": 1
+					},
+					"_id": "qatest-letter-k",
+					"auxtabs": [],
+					"color": "yellow",
+					"heightstate": "super",
+					"name": "Letter K",
+					"background": "http://miclasesabe.com/wp-content/uploads/2016/08/letter_a.gif",
+					"type": "folder",
+					"instantiations": {
+						"taxonomy": [],
+						"qatest-history": ["test-letter-k"],
+						"bing-bong": []
+					},
+					"leaves": {
+						"ALLRESOURCES": {
+							"_id": "letter-k_ALLRESOURCES",
+							"count": 10
+						}
+					}
+				}
+			}
+		},
+		{
+			"classString": "LoadChanges",
+			"slice": "changes",
+			"type": "CHANGES_POPULATE",
+			"payload": {
+				"GUEST_language-arts_ALLRESOURCES_primero_master": {
+					"additions": [
+						{
+							"_id": "qatest-letter-k",
+							"id": "7a0fa612-3d28-46d5-92ad-0583a9bcfecc",
+							"name": "qatest-letter-k",
+							"currenttab": "headline",
+							"instance": "7a0fa612-3d28-46d5-92ad-0583a9bcfecc",
+							"currentdate": null,
+							"urlnodelistener": null,
+							"isFavorite": false,
+							"pagination": [
+								{
+									"serial": "primero",
+									"ghost": "qatest-letter-k"
+								}
+							],
+							"defaultchildrenstate": "card",
+							"layoutbehavior": "row"
+						}
+					]
+				},
+				"GUEST_language-arts_ALLRESOURCES_primero_1462665600000": {
+					"additions": [
+						{
+							"_id": "qatest-letter-k",
+							"id": "4a2d5cdc-3f44-4dc7-9484-37a573ab26c8",
+							"name": "qatest-letter-k",
+							"currenttab": "headline",
+							"instance": "4a2d5cdc-3f44-4dc7-9484-37a573ab26c8",
+							"currentdate": null,
+							"urlnodelistener": null,
+							"isFavorite": false,
+							"pagination": [
+								{
+									"serial": "primero",
+									"ghost": "qatest-letter-k"
+								}
+							],
+							"defaultchildrenstate": "card",
+							"layoutbehavior": "row"
+						}
+					]
+				}
+			}
+		},
+		{
+			"classString": "PromptProcessChanges",
+			"slice": "changes",
+			"type": "PROMPT_PROCESS_CHANGES",
+			"payload": {}
+		}
+	],
+	"debug": null
+}

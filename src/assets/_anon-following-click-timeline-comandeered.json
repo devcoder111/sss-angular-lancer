@@ -1,0 +1,83 @@
+{
+	"actions": [
+		{
+			"classString": "LoadFetched",
+			"slice": "nodes",
+			"type": "FETCHED_POPULATE",
+			"payload": {
+				"qatest-letter-z": {
+					"tags": {
+						"language-arts": 5,
+						"3rd": 4,
+						"4th": 3,
+						"5th": 3,
+						"6th": 1
+					},
+					"_id": "qatest-letter-z",
+					"auxtabs": [],
+					"color": "gold",
+					"heightstate": "super",
+					"name": "Letter Z",
+					"background": "http://miclasesabe.com/wp-content/uploads/2016/08/letter_a.gif",
+					"type": "folder",
+					"instantiations": {
+						"taxonomy": [],
+						"qatest-history": ["test-letter-z"],
+						"bing-bong": []
+					},
+					"leaves": {
+						"ALLRESOURCES": {
+							"_id": "letter-a_ALLRESOURCES",
+							"count": 10
+						}
+					}
+				}
+			}
+		},
+		{
+			"classString": "LoadChanges",
+			"slice": "changes",
+			"type": "CHANGES_POPULATE",
+			"payload": {
+				"GUEST_sister-history_TIMELINE_primero_master": {
+					"additions": [
+						{
+							"_id": "qatest-letter-z",
+							"id": "2e7e309d-539a-4a74-82c6-a29d8722ebac",
+							"name": "qatest-letter-z",
+							"currenttab": "basic",
+							"instance": "1636867277764-0-$-652855",
+							"currentdate": null,
+							"urlnodelistener": null,
+							"isFavorite": false,
+							"pagination": [
+								{
+									"serial": "primero",
+									"ghost": "qatest-letter-z"
+								}
+							],
+							"defaultchildrenstate": "card",
+							"layoutbehavior": "row"
+						}
+					],
+					"mutations": [
+						{
+							"pagination": [
+								{
+									"serial": "primero"
+								}
+							]
+						}
+					]
+				}
+			}
+		},
+		{
+			"classString": "PromptProcessChanges",
+			"slice": "changes",
+			"type": "PROMPT_PROCESS_CHANGES",
+			"payload": {}
+		}
+	],
+	"debug": null
+}

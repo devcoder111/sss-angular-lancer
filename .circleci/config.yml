@@ -1,0 +1,24 @@
+version: '2.1'
+orbs:
+  node: circleci/node@4.7
+jobs:
+  build_and_deploy:
+    docker:
+      - image: 'cimg/base:stable'
+    steps:
+      - run: sudo apt-get update --allow-releaseinfo-change && sudo apt-get install rsync -y
+      - checkout
+      - node/install:
+          node-version: '16.13.0'
+      - node/install-packages
+      - run: npm run build --prod
+      - run: echo "mysyllabi.mx ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIACvk8DnHa9NTPXaDADTIMs2qxfWo1IATApRd01dQmrS" >> ~/.ssh/known_hosts
+      - run: ssh sss-clojure-deployer@mysyllabi.mx "mkdir -p builds/$CIRCLE_PROJECT_REPONAME/$CIRCLE_BRANCH/$CIRCLE_BUILD_NUM"
+      - run: rsync -av dist/ sss-clojure-deployer@mysyllabi.mx:~/builds/$CIRCLE_PROJECT_REPONAME/$CIRCLE_BRANCH/$CIRCLE_BUILD_NUM
+      - run: ssh sss-clojure-deployer@mysyllabi.mx "echo $CIRCLE_BUILD_NUM > builds/$CIRCLE_PROJECT_REPONAME/$CIRCLE_BRANCH.info"
+      - run: ssh sss-clojure-deployer@mysyllabi.mx "~/bin/save-last builds/$CIRCLE_PROJECT_REPONAME/$CIRCLE_BRANCH 5"
+      - run: ssh sss-clojure-deployer@mysyllabi.mx "rm -rf builds/$CIRCLE_PROJECT_REPONAME/$CIRCLE_BRANCH.current && ln -sf $CIRCLE_BRANCH/$CIRCLE_BUILD_NUM builds/$CIRCLE_PROJECT_REPONAME/$CIRCLE_BRANCH.current"
+workflows:
+  run-npm-command:
+    jobs:
+      - build_and_deploy

@@ -1,0 +1,38 @@
+{
+    "_id" : "qatest-trickle",
+    "tags" : {
+        "language-arts" : 3,
+        "science" : 7,
+        "3rd" : 5,
+        "4th" : 5,
+        "5th" : 4
+    },
+    "auxtabs" : [
+        {
+            "label" : null,
+            "template" : "SSSListComponent",
+            "name" : "all",
+            "leaf" : "ALLRESOURCES",
+            "refine" : [
+
+            ],
+            "hovermenu" : false
+        }
+    ],
+    "color" : "orange",
+    "heightstate" : null,
+    "name" : "Trickle",
+    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_f.gif",
+    "type" : "folder",
+    "instantiations" : {
+        "infinity" : [
+            "qatest-trickle"
+        ]
+    },
+    "leaves" : {
+        "ALLRESOURCES" : {
+            "_id" : "qatest-trickle_ALLRESOURCES",
+            "count" : 3
+        }
+    }
+}

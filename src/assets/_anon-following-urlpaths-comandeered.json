@@ -1,0 +1,83 @@
+{
+	"actions": [
+		{
+			"classString": "LoadFetched",
+			"slice": "nodes",
+			"type": "FETCHED_POPULATE",
+			"payload": {
+				"qatest-letter-r": {
+					"url": null,
+					"custom": null,
+					"serial": "qatest-letter-r",
+					"author": null,
+					"tags": {
+						"language-arts": 5,
+						"3rd": 4,
+						"4th": 3,
+						"5th": 3,
+						"6th": 1
+					},
+					"leaves": {
+						"ALLRESOURCES": {
+							"_id": "letter-r_ALLRESOURCES",
+							"count": 10
+						}
+					},
+					"id": "851106ba-b1b2-4f90-9f11-fa5700109c71",
+					"timestamp": "2021-09-25T10:24:03Z",
+					"batch": null,
+					"name": "Letter R",
+					"heightstate": "super",
+					"auxtext": null,
+					"auxtabs": [],
+					"text": null,
+					"instantiations": {
+						"BEATLES_qatest-history": ["qatest-letter-m"],
+						"qatest-sequential": ["qatest-letter-e"],
+						"qatest-history": ["qatest-letter-w"]
+					},
+					"type": "folder",
+					"_id": "qatest-letter-r",
+					"subscribers": null,
+					"background": "http://miclasesabe.com/wp-content/uploads/2016/08/letter_e.gif",
+					"color": "red"
+				}
+			}
+		},
+		{
+			"classString": "LoadChanges",
+			"slice": "changes",
+			"type": "CHANGES_POPULATE",
+			"payload": {
+				"GUEST_special-education-resources_ALLRESOURCES_primero_master": {
+					"additions": [
+						{
+							"_id": "qatest-letter-r",
+							"id": "0ae58e45-6584-411b-bcbc-8e9b897f510a",
+							"name": "qatest-letter-r",
+							"currenttab": "headline",
+							"instance": "92937292323-0-$-282382+66728362876-0-$-662782",
+							"currentdate": null,
+							"urlnodelistener": null,
+							"isFavorite": false,
+							"pagination": [
+								{
+									"serial": "primero",
+									"ghost": "qatest-letter-r"
+								}
+							],
+							"defaultchildrenstate": "card",
+							"layoutbehavior": "row"
+						}
+					]
+				}
+			}
+		},
+		{
+			"classString": "SetApplicationNodeID",
+			"slice": "application",
+			"type": "SET_APPLICATION_NODEID",
+			"payload": "mysyllabi_application"
+		}
+	]
+}

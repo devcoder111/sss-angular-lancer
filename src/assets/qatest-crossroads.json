@@ -1,0 +1,39 @@
+{
+    "_id" : "qatest-crossroads",
+    "tags" : {
+        "language-arts" : 3,
+        "science" : 7,
+        "3rd" : 5,
+        "4th" : 5,
+        "5th" : 4
+    },
+    "auxtabs" : [
+        {
+            "label" : null,
+            "template" : "SSSListComponent",
+            "name" : "all",
+            "leaf" : "ALLRESOURCES",
+            "refine" : [
+
+            ],
+            "hovermenu" : false,
+            "oope" : true
+        }
+    ],
+    "color" : "gray",
+    "heightstate" : null,
+    "name" : "CrossRoads",
+    "background" : "/images/inline/default_folder.png",
+    "type" : "taxonomy",
+    "instantiations" : {
+        "infinity" : [
+            "qatest-crossroads"
+        ]
+    },
+    "leaves" : {
+        "ALLRESOURCES" : {
+            "_id" : "qatest-crossroads_ALLRESOURCES",
+            "count" : 3
+        }
+    }
+}

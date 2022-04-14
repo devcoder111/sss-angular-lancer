@@ -1,0 +1,123 @@
+{
+	"actions": [
+		{
+			"classString": "LoadFetched",
+			"slice": "nodes",
+			"type": "FETCHED_POPULATE",
+			"payload": {
+				"qatest-letter-a": {
+					"tags": {
+						"language-arts": 5,
+						"3rd": 4,
+						"4th": 3,
+						"5th": 3,
+						"6th": 1
+					},
+					"_id": "qatest-letter-a",
+					"auxtabs": [],
+					"color": "purple",
+					"heightstate": "super",
+					"name": "Letter A",
+					"background": "http://miclasesabe.com/wp-content/uploads/2016/08/letter_a.gif",
+					"type": "folder",
+					"instantiations": {
+						"taxonomy": [],
+						"qatest-history": ["test-letter-a"],
+						"bing-bong": []
+					},
+					"leaves": {
+						"ALLRESOURCES": {
+							"_id": "letter-a_ALLRESOURCES",
+							"count": 10
+						}
+					}
+				},
+				"qatest-letter-c": {
+					"tags": {
+						"language-arts": 5,
+						"3rd": 4,
+						"4th": 3,
+						"5th": 3,
+						"6th": 1
+					},
+					"_id": "qatest-letter-c",
+					"auxtabs": [],
+					"color": "gold",
+					"heightstate": "super",
+					"name": "Letter C",
+					"background": "http://miclasesabe.com/wp-content/uploads/2016/08/letter_c.gif",
+					"type": "folder",
+					"instantiations": {
+						"BEATLEJUICE_qatest-bubble": ["qatest-letter-p"],
+						"qatest-bubble": ["qatest-letter-c"],
+						"qatest-trickle": ["qatest-letter-a"]
+					},
+					"leaves": {
+						"ALLRESOURCES": {
+							"_id": "letter-c_ALLRESOURCES",
+							"count": 10
+						}
+					}
+				}
+			}
+		},
+		{
+			"classString": "LoadChanges",
+			"slice": "changes",
+			"type": "CHANGES_POPULATE",
+			"payload": {
+				"language-arts_ALLRESOURCES_primero_master": {
+					"additions": [
+						{
+							"_id": "qatest-letter-a",
+							"id": "0989aa74-666c-4549-a89c-fc74d0b5931b",
+							"name": "qatest-letter-a",
+							"currenttab": "headline",
+							"instance": "0989aa74-666c-4549-a89c-fc74d0b5931b",
+							"currentdate": null,
+							"urlnodelistener": null,
+							"isFavorite": false,
+							"pagination": [
+								{
+									"serial": "primero",
+									"ghost": "qatest-letter-a"
+								}
+							],
+							"defaultchildrenstate": "card",
+							"layoutbehavior": "row"
+						}
+					]
+				},
+				"language-arts_ALLRESOURCES_primero_1462665600000": {
+					"additions": [
+						{
+							"_id": "qatest-letter-a",
+							"id": "efc1b3e5-c6f4-473f-899a-1d410ae3d50f",
+							"name": "qatest-letter-a",
+							"currenttab": "headline",
+							"instance": "efc1b3e5-c6f4-473f-899a-1d410ae3d50f",
+							"currentdate": null,
+							"urlnodelistener": null,
+							"isFavorite": false,
+							"pagination": [
+								{
+									"serial": "primero",
+									"ghost": "qatest-letter-a"
+								}
+							],
+							"defaultchildrenstate": "card",
+							"layoutbehavior": "row"
+						}
+					]
+				}
+			}
+		},
+		{
+			"classString": "PromptProcessChanges",
+			"slice": "changes",
+			"type": "PROMPT_PROCESS_CHANGES",
+			"payload": {}
+		}
+	],
+	"debug": null
+}

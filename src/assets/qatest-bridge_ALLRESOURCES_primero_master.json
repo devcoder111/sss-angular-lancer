@@ -1,0 +1,34 @@
+{
+    "_id" : "qatest-bridge_ALLRESOURCES_primero_master",
+    "antes" : null,
+    "despues" : null,
+    "inventory" : [
+        {
+            "_id" : "mysyllabi_qatest-history",
+            "instance" : "watermelon",
+            "currentdate" : null,
+            "currenttab" : "timeline",
+            "isFavorite" : false,
+            "pagination" : [
+                {
+                    "serial" : "primero"
+                }
+            ],
+            "defaultchildrenstate" : "card"
+        },
+        {
+            "_id" : "mysyllabi_qatest-sequential",
+            "instance" : "blueberry",
+            "currentdate" : null,
+            "currenttab" : "timeline",
+            "isFavorite" : false,
+            "pagination" : [
+             {
+                 "serial" : "primero"
+             }
+            ],
+            "defaultchildrenstate" : "card",
+            "urlnodelistener" : true
+        }
+    ]
+}

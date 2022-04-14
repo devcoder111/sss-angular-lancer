@@ -1,0 +1,28 @@
+{
+    "_id" : "mysyllabi_qatest-history",
+    "name" : "History",
+    "type" : "calendar",
+    "color" : "orange",
+    "heightstate" : "super",
+    "auxtabs" : [
+
+    ],
+    "tags" : {
+        "language-arts" : 1,
+        "6th" : 1
+    },
+    "instantiations" : {
+        "qatest-history" : [
+            "mysyllabi_qatest-history"
+        ]
+    },
+    "leaves" : {
+
+    },
+    "background" : "http://seasidesyndication.com/images/teacher_distribution.png",
+    "custom" : "",
+    "subscribers" : [
+
+    ],
+    "url" : ""
+}

@@ -1,0 +1,28 @@
+{
+    "_id" : "mysyllabi_qatest-sequential",
+    "name" : "Sequential",
+    "type" : "calendar",
+    "color" : "tomato",
+    "heightstate" : "super",
+    "auxtabs" : [
+
+    ],
+    "tags" : {
+        "language-arts" : 1,
+        "6th" : 1
+    },
+    "instantiations" : {
+        "qatest-history" : [
+            "mysyllabi_qatest-sequential"
+        ]
+    },
+    "leaves" : {
+
+    },
+    "background" : "http://seasidesyndication.com/images/greenjackets_logo.png",
+    "custom" : "",
+    "subscribers" : [
+
+    ],
+    "url" : ""
+}

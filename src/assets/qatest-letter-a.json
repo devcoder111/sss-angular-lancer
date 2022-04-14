@@ -1,0 +1,35 @@
+{
+    "_id" : "qatest-letter-a",
+    "name" : "Letter A",
+    "type" : "folder",
+    "color" : "purple",
+    "heightstate" : "super",
+    "tags" : {
+        "language-arts" : 5,
+        "3rd" : 4,
+        "4th" : 3,
+        "5th" : 3,
+        "6th" : 1
+    },
+    "auxtabs" : [
+
+    ],
+    "leaves" : {
+        "ALLRESOURCES" : {
+            "_id" : "letter-a_ALLRESOURCES",
+            "count" : 10
+        }
+    },
+    "instantiations" : {
+        "taxonomy" : [
+
+        ],
+        "qatest-history" : [
+            "test-letter-a"
+        ],
+        "bing-bong" : [
+
+        ]
+    },
+    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_a.gif"
+}

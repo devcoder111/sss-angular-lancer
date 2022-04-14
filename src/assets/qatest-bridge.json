@@ -1,0 +1,39 @@
+{
+    "_id" : "qatest-bridge",
+    "tags" : {
+        "language-arts" : 3,
+        "science" : 7,
+        "3rd" : 5,
+        "4th" : 5,
+        "5th" : 4
+    },
+    "auxtabs" : [
+        {
+            "label" : null,
+            "template" : "SSSListComponent",
+            "name" : "all",
+            "leaf" : "ALLRESOURCES",
+            "refine" : [
+
+            ],
+            "hovermenu" : false,
+            "oope" : true
+        }
+    ],
+    "color" : "plum",
+    "heightstate" : null,
+    "name" : "Bridge",
+    "background" : "/images/inline/default_folder.png",
+    "type" : "folder",
+    "instantiations" : {
+        "infinity" : [
+            "qatest-bridge"
+        ]
+    },
+    "leaves" : {
+        "ALLRESOURCES" : {
+            "_id" : "qatest-bridge_ALLRESOURCES",
+            "count" : 3
+        }
+    }
+}

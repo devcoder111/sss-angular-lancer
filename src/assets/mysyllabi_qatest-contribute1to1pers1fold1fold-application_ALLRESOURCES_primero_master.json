@@ -1,0 +1,72 @@
+{
+    "_id" : "mysyllabi_qatest-contribute1to1pers1fold1fold-application_ALLRESOURCES_primero_master",
+    "antes" : null,
+    "despues" : null,
+    "inventory" : [
+        {
+            "_id" : "qatest-stubfarm",
+            "instance" : "master",
+            "currentdate" : null,
+            "currenttab" : "all",
+            "isFavorite" : false,
+            "pagination" : [
+                {
+                    "serial" : "primero"
+                }
+            ],
+            "defaultchildrenstate" : "headline"
+        },
+        {
+            "_id" : "qatest-crossroads",
+            "instance" : "master",
+            "currentdate" : null,
+            "currenttab" : "all",
+            "isFavorite" : false,
+            "pagination" : [
+                {
+                    "serial" : "primero"
+                }
+            ],
+            "defaultchildrenstate" : "card"
+        },
+        {
+            "_id" : "mysyllabi_qatest-history",
+            "instance" : "master",
+            "currentdate" : null,
+            "currenttab" : "timeline",
+            "isFavorite" : false,
+            "pagination" : [
+                { "serial" : "primero" }
+            ],
+            "defaultchildrenstate" : "card",
+            "urlnodelistener" : true
+        },
+        {
+            "_id" : "qatest-bubble",
+            "instance" : "banana",
+            "currentdate" : null,
+            "currenttab" : "all",
+            "isFavorite" : false,
+            "pagination" : [
+                {
+                    "serial" : "primero"
+                }
+            ],
+            "defaultchildrenstate" : "basic"
+        },
+        {
+            "_id" : "qatest-trickle",
+            "instance" : "apricot",
+            "currentdate" : null,
+            "currenttab" : "all",
+            "isFavorite" : false,
+            "pagination" : [
+                {
+                    "serial" : "primero"
+                }
+            ],
+            "defaultchildrenstate" : "headline",
+            "urlnodelistener" : true
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "_id" : "qatest-letter-c",
+    "name" : "Letter C",
+    "type" : "folder",
+    "color" : "gold",
+    "heightstate" : "super",
+    "tags" : {
+        "language-arts" : 5,
+        "3rd" : 4,
+        "4th" : 3,
+        "5th" : 3,
+        "6th" : 1
+    },
+    "auxtabs" : [
+
+    ],
+    "leaves" : {
+        "ALLRESOURCES" : {
+            "_id" : "letter-c_ALLRESOURCES",
+            "count" : 10
+        }
+    },
+    "instantiations" : {
+        "BEATLEJUICE_qatest-bubble" : [
+            "qatest-letter-p"
+        ],
+        "qatest-bubble" : [
+            "qatest-letter-c"
+        ],
+        "qatest-trickle" : [
+            "qatest-letter-a"
+        ]
+    },
+    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_c.gif"
+}

@@ -1,0 +1,33 @@
+{
+    "_id" : "qatest-trickle_ALLRESOURCES_primero_master",
+    "antes" : null,
+    "despues" : null,
+    "inventory" : [
+        {
+            "_id" : "qatest-letter-f",
+            "instance" : "pank",
+            "isFavorite" : false,
+            "currentdate" : null,
+            "currenttab" : "basic",
+            "style" : {
+
+            },
+            "pagination" : [
+                { "serial" : "primero" }
+            ]
+        },
+        {
+            "_id" : "qatest-letter-n",
+            "instance" : "deeka",
+            "isFavorite" : false,
+            "currentdate" : null,
+            "currenttab" : "all",
+            "style" : {
+
+            },
+            "pagination" : [
+                { "serial" : "primero" }
+            ]
+        }
+    ]
+}

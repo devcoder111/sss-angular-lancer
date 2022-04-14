@@ -1,0 +1,31 @@
+{
+    "_id" : "qatest-stubfarm_ALLRESOURCES_primero_master",
+    "antes" : null,
+    "despues" : null,
+    "inventory" : [
+        {
+            "_id" : "qatest-bubble",
+            "instance" : "riski",
+            "isFavorite" : false,
+            "pagination" : [ { "serial" : "primero" } ],
+            "currenttab" : "basic",
+            "currentdate" : null,
+            "style" : {
+                "width" : "200px",
+                "height" : "23px"
+            }
+        },
+        {
+            "_id" : "qatest-trickle",
+            "instance" : "laddle",
+            "isFavorite" : false,
+            "pagination" : [ { "serial" : "primero" } ],
+            "currenttab" : "basic",
+            "currentdate" : null,
+            "style" : {
+                "width" : "200px",
+                "height" : "23px"
+            }
+        }
+    ]
+}

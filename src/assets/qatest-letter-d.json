@@ -1,0 +1,37 @@
+{
+    "_id" : "qatest-letter-d",
+    "name" : "Letter D",
+    "type" : "folder",
+    "color" : "cyan",
+    "heightstate" : "super",
+    "tags" : {
+        "language-arts" : 5,
+        "3rd" : 4,
+        "4th" : 3,
+        "5th" : 3,
+        "6th" : 1
+    },
+    "auxtabs" : [
+
+    ],
+    "leaves" : {
+        "ALLRESOURCES" : {
+            "_id" : "letter-d_ALLRESOURCES",
+            "count" : 10
+        }
+    },
+    "instantiations" : {
+        "BEATLEJUICE_qatest-bubble" : [
+            "qatest-letter-q"
+        ],
+        "qatest-bubble" : [
+            "qatest-letter-d",
+            "qatest-letter-e"
+        ],
+        "qatest-trickle" : [
+            "qatest-letter-m",
+            "qatest-letter-p"
+        ]
+    },
+    "background" : "http://miclasesabe.com/wp-content/uploads/2016/08/letter_d.gif"
+}
